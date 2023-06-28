@@ -1,0 +1,492 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav > p{
+    padding: 10px;
+}
+
+.nav{
+    color: grey;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-text{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text > h1{
+    font-weight: 100;
+}
+
+.header-text > p{
+    color: grey;
+    font-style: italic;
+    font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
+}
+
+.header-content > button{
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.dotsImg{
+    margin-bottom: 100px;
+    margin-left: 49%;
+}
+
+#about-us{   
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#timeline{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#timeline > div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#timeline-left > #event-2011{
+    margin-top: 90px;
+}
+
+#timeline-left > #event-2013{
+    margin-top: 135px;
+}
+
+#timeline-right > #event-2012{
+    margin-top: 170px;
+}
+
+#timeline-right > #event-2014{
+    margin-top: 210px;
+}
+
+#timeline-center {
+    height: 750px;
+    margin-bottom: -50px;
+}
+
+#building-img{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#building-img > img{
+    margin-bottom: -10px;
+}
+
+.left-year{
+    text-align: right;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.right-year{
+    text-align: left;
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.timeline-text{
+    color: grey;
+    margin-top: 10px;
+}
+
+#about-team{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-team > h3{
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#about-team > p{
+    font-style: italic;
+    color: grey;
+}
+
+#team-members{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    height: 400px;
+    align-items: flex-end;
+}
+
+#team-members > div{
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #justin{
+    align-self: flex-start;
+    margin-top: 60px;
+ }
+
+ .team-member-img{
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+ }
+
+ .team-member > h3{
+    font-weight: 300;
+ }
+
+ .team-member > p{
+    color: grey;
+    font-size: 12px;
+ }
+
+ .social-media > img{
+    margin: 20px 5px;
+ }
+
+ #services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1400px;
+    background-color: #181818;
+    color: white;
+ }
+
+ #services-quote{
+    margin-top: 200px;
+    margin-bottom: 100px;
+ }
+
+ #services-quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #services-quote > h3{
+    font-weight: 100;
+    font-size: 36px;
+ }
+
+ #services-quote > p{
+    font-size: 15px;
+    font-style: italic;
+    color: grey;
+ }
+
+ #services-list{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    flex-basis: 350px;
+ }
+
+ .service > h3{
+    font-weight: 100;
+ }
+
+ .service > p{
+    font-weight: 100;
+    color: grey;
+    font-style: italic;
+    font-size: 15px;
+ }
+
+ #blog{
+    height: 600px;
+    width: 50%;
+    background-image: url("images/blog.png");
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+ }
+
+ #blog-button{
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+    font-weight: 600;
+    margin-bottom: 100px;
+ }
+
+ .slice{
+    height: 300px;
+    width: 110%;
+    transform: rotate(-3deg);
+    background-color: white;
+    margin-left: -10px;
+}
+#slice-upper{
+    margin-bottom: -100px;
+}
+#slice-bottom{
+    margin-top: -100px;
+    margin-bottom: 10px;
+}
+
+/*Contact us section*/
+
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+#contact-quote > h3{
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#contact-quote > p{
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    color: grey;
+    text-align: center;
+}
+
+#contact-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-container{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-container > p{
+    font-size: 12px;
+    color: grey;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 800px;
+    gap: 20px;
+}
+
+#contact-form > input{
+    height: 50px;
+}
+
+#contact-form > #textarea{
+    height: 200px;
+}
+
+#contact-form > input::placeholder{
+    text-align:center;
+}
+
+#contact-form > button{
+    color: white;
+    background-color: black;
+    border: none;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer{
+    margin-top: 200px;
+    text-align: center;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+    
+header{
+    gap: 175px;
+}
+
+nav{
+    gap: 10px;
+}
+
+nav > p{
+    padding: 5px;
+    font-size: 10px;
+}
+
+.header-content{
+    gap: 25px;
+}
+
+.header-content > button{
+    padding: 20px 40px;
+}
+
+#dots{
+    margin-bottom: 50px;
+}
+
+#timeline{
+    gap: 15px;
+}
+
+#timeline > div{
+    width: 150px;
+}
+
+#timeline-left > #event-2011{
+    margin-top: 100px;
+}
+
+#timeline-left > #event-2013{
+    margin-top: 183px;
+}
+
+#timeline-right > #event-2012{
+    margin-top: 182px;
+}
+
+#timeline-right > #event-2014{
+    margin-top: 245px;
+}
+
+.left-year,
+.right-year{
+    font-size: 18px;
+}
+
+.timeline-text{
+    font-size: 9px;
+}
+
+#about-team > h3{
+    font-size: 24px;
+}
+
+#team-members{
+    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+ #justin{
+    margin-top: 0px;
+    align-self: auto;
+ }
+
+ #services{
+    height: 2000px;
+ }
+
+ #services-quote > h3{
+    font-size: 18px;
+ }
+
+ #services-quote > p{
+    font-size: 10px;
+ }
+
+ #services-list{
+    flex-wrap: wrap;
+ }
+
+ #blog{
+    background-size:cover;
+ }
+
+ .slice{
+    height: 150px;
+}
+
+#contact-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 300px;
+    gap: 20px;
+}
+
+#contact-form > input{
+    height: 20px;
+}
+
+#contact-form > #message-form{
+    height: 50px;
+}
+
+footer{
+    margin-top: 100px;
+    height: 20px;
+    font-size: 12px;
+}
+}
